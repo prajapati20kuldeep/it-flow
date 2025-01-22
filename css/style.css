@@ -190,6 +190,9 @@ img {
 	display: inline-flex;
 	align-items: center;
 	margin-left: 4px;
+	background: -webkit-linear-gradient(279.69deg, #0050b8 0%, #0ba23d 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .hero_wrapper span i {
 	color: #ffffff;
@@ -318,6 +321,11 @@ img {
 	font-weight: 700;
 	margin-bottom: 96px;
 }
+.service_wrapper h2 span{
+	background: -webkit-linear-gradient(279.69deg, #0050b8 0%, #0ba23d 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .cards_coloum {
 	text-align: center;
 	border-radius: 27px;
@@ -398,12 +406,19 @@ img {
 }
 .tabs_wrapper {
 	text-align: center;
+	position: relative;
+	z-index: 1;
 }
 .tabs_wrapper h2 {
 	font-size: 68px;
 	color: #ffffff;
 	font-weight: 700;
 	margin-bottom: 21px;
+}
+.tabs_wrapper h2 span{
+	background: -webkit-linear-gradient(279.69deg, #0050b8 0%, #0ba23d 100%);
+  	background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .tabs_wrapper p {
 	font-size: 18px;

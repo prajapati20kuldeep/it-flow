@@ -95,10 +95,11 @@
 	}
 	
 	.hero_section {
-		padding: 35px 0px 55px;
+		padding: 167px 0px 55px;
 	}
 	.hero_wrapper .sub_title {
 		font-size: 9px;
+		margin-bottom: 20px;
 	}
 	.hero_section .title {
 		font-size: 29px;
@@ -308,8 +309,6 @@
 		margin-bottom: 20px;
 	}
 	.Trusted_section {
-		/* overflow: hidden; */
-		/* background-image: url(../images/Shape.png); */
 		background: linear-gradient(279.69deg, #1AFFE8 0%, #5C1ADF 100%);
 		-webkit-mask-image: url(../images/mobile.png);
 		mask-image: url(../images/mobile.png);
@@ -323,6 +322,17 @@
 }
 .service_row .col-md-4 {
 	width: 100%;
+}
+.logo-animation{
+	animation: none;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+	text-align: center;
+}
+
+.logo-slide{
+	width: 40%;
 }
 }
 
